@@ -4,6 +4,10 @@
     margin: 10px;
 }
 
+.icon-cart:hover{
+    cursor: pointer;
+}
+
 .container-icon a{
     color: black;
     position: relative;
@@ -100,3 +104,4 @@
 .hidden-cart{
     display: none;
 }
+
