@@ -1,22 +1,3 @@
-.fighter{
-    display: flex;
-    padding: 0 10px;
-    max-width: 100%;
-    
-}
-
-.fighter img{
-    width: 20%;
-    
-}
-
-.text-fighter{
-    width: 40%;
-    padding: 30px;
-    
-}
-
-.racha{
-    font-size: 20px;
-    font-weight: 700;
+.card:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
 }
