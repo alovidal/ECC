@@ -1,39 +1,39 @@
 .pie-pagina{
-    
     width: 100%;
     background-color: black;
     color: white;
 }
 
 .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 30px 0px;
+    display: flex;
 }
 
-.box figure{
-    width: 100%;
+.box{
     height: 100%;
+    padding: 10px 30px ;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .box figure img{
-    width: 150px;
+    width: 120px;
 }
 
-.box h2{
-    margin-bottom: 25px;
-    font-size: 20px;
+#p-logo{
+    width: 20%;
+    padding: 50px;
 }
 
-.box p{
+#p-desc{
+    width: 60%;
+    display: block;
     text-align: justify;
+}
+
+#p-social{
+    width: 10%;
+    display: block;
 }
 
 .social a{
@@ -46,7 +46,7 @@
 }
 
 .grupo-2{
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 

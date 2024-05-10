@@ -15,58 +15,32 @@
   </head>
   <body>
     <header>
-      <nav
-        class="navbar navbar-expand-lg"
-        style="background-color: rgb(205, 3, 27)"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="/Imagenes/LOGOTIPO ECC.png"
-              alt="El Club de los Combos"
-              width="55"
-            />
+      <nav class="navbar">
+        <div class="list-cat">
+          <ul class="container-cat">
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="ranking.html">Ranking</a>
+            </li>
+            <li>
+              <a href="peleadores.html">Peleadores</a>
+            </li>
+            <li>
+              <a href="tienda.html">Tienda</a>
+            </li>
+          </ul>
+        </div>
+        <div class="container-logo">
+          <a href="index.html">
+            <img class="nav-logo" src="/Imagenes/LOGOTIPO ECC.png" alt="El Club de los Combos"/>
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="ranking.html">Ranking</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="peleadores.html">Peleadores</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="tienda.html">Tienda</a>
-              </li>
-            </ul>
-            <div class="container-icon">
-              <a href="carro.html"><svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="icon-cart"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
-                />
-              </svg></a>
-            </div>
-          </div>
+        </div>
+        <div class="container-icon">
+          <a href="carro.html"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/></svg>
+          </a>
         </div>
       </nav>
     </header>
@@ -136,7 +110,7 @@
 
     <footer class="pie-pagina">
       <div class="grupo-1">
-        <div class="box">
+        <div class="box" id="p-logo">
           <figure>
             <a href="index.html">
               <img
@@ -146,7 +120,7 @@
             </a>
           </figure>
         </div>
-        <div class="box">
+        <div class="box" id="p-desc">
           <h2>Sobre Nosotros</h2>
           <p>
             ¡Bienvenido a El Club de los Combos! Aquí, 
@@ -160,7 +134,7 @@
             ¡Prepárate para la acción y haz historia con cada combate!
           </p>        
         </div>
-        <div class="box">
+        <div class="box" id="p-social">
           <h2>Siguenos</h2>
           <div class="social">
             <p><a href="https://www.facebook.com/">Facebook</a></p>
@@ -170,6 +144,7 @@
           </div>
         </div>
       </div>
+
       <div class="grupo-2">
         <small
           >&copy; 2024 <b>El Club de los Combos</b> - Todos los Derechos
