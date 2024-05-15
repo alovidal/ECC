@@ -81,18 +81,18 @@ main.table {
     overflow: overlay;
 }
 
-.table__body::-webkit-scrollbar{
+.table-body::-webkit-scrollbar{
     width: 0.5rem;
     height: 0.5rem;
 }
 
-.table__body::-webkit-scrollbar-thumb{
+.table-body::-webkit-scrollbar-thumb{
     border-radius: .5rem;
     background-color: #0004;
     visibility: hidden;
 }
 
-.table__body:hover::-webkit-scrollbar-thumb{ 
+.table-body:hover::-webkit-scrollbar-thumb{ 
     visibility: visible;
 }
 
