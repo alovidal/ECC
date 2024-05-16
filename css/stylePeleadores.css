@@ -1,12 +1,7 @@
-.visor{
-    padding: 50px;
-    display: flex;
-    background-color: rgba(255, 0, 0, 0.267);
-}
-
 .visor img{
-    width: 250px;
-    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .card:hover{

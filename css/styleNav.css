@@ -1,11 +1,14 @@
 header{
-    background-color: rgb(205, 3, 27);
+    background-color: black;
     width: 100%;
-    height: 81px;
+    height: 81px;    
 }
 
 .navbar{
     display: flex;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 10;
 }
 
 .list-cat{
@@ -34,7 +37,6 @@ header{
 }
 
 .container-cat a:hover{
-    color: #000;
     opacity: 70%;
 }
 
