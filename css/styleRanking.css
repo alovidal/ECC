@@ -81,21 +81,6 @@ main.table {
     overflow: overlay;
 }
 
-.table-body::-webkit-scrollbar{
-    width: 0.5rem;
-    height: 0.5rem;
-}
-
-.table-body::-webkit-scrollbar-thumb{
-    border-radius: .5rem;
-    background-color: #0004;
-    visibility: hidden;
-}
-
-.table-body:hover::-webkit-scrollbar-thumb{ 
-    visibility: visible;
-}
-
 table {
     width: 100%;
 }

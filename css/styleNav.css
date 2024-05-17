@@ -46,8 +46,17 @@ header{
     margin: 10px 30px;
 }
 
+.icon-menu{
+    width: 40px;
+    stroke: white;
+    cursor: pointer;    
+}
+
 .icon-cart:hover{
-    stroke: #000;
+    opacity: 70%;
+}
+
+.icon-menu:hover{
     opacity: 70%;
 }
 
